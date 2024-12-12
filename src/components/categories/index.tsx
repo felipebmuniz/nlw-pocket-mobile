@@ -15,7 +15,7 @@ export type Props = {
 
 export function Categories({ data, selected, onSelect }: Props) {
   return (
-    <View style={{ flex: 1 }}>
+    <View>
       <FlatList
         data={data}
         keyExtractor={(item) => item.id}
